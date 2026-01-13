@@ -1,0 +1,52 @@
+﻿@model List<SliderGetVM>
+
+@{
+    ViewData["Slider"] = "Sliders";
+}
+
+<div class="container">
+    <a asp-area="admin" asp-controller="slider" asp-action="create" class="btn btn-info">Create new</a>
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Heading</th>
+                <th scope="col">Text</th>
+                <th scope="col">Image</th>
+                <th scope="col">CreatedAt</th>
+                <th scope="col">UpdatedAt</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var slider in Model ?? null)
+            {
+                <tr>
+                    <th scope="row">@slider.Id</th>
+                    <td>@slider.Heading</td>
+                    <td>@slider.Text</td>
+                    <td><img src="@slider.ImageUrl"/></td>
+                    <td>@slider.CreatedAt</td>
+                    <td>@slider.UpdatedAt</td>
+                    <td>
+                        <a class="btn btn-warning" asp-area="admin"
+                        asp-controller="slider"
+                        asp-action="edit"
+                        asp-route-id ="@slider.Id"
+                        method="post"><i class="fas fa-edit"></i></a>
+                    </td>
+
+                    <form asp-area="admin"
+                          asp-controller="slider"
+                          asp-action="remove"
+                          asp-route-id="@slider.Id">
+                          <button type="submit" class="btn btn-danger"><i class="fa-fast-backward fa-trash-alt"></i></button>
+                      </form>
+                </tr>
+            }
+
+            
+        </tbody>
+    </table>
+
+</div>

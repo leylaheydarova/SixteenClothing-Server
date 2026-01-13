@@ -1,0 +1,24 @@
+﻿@model SliderCreateVM
+
+
+<div class="container">
+    <form asp-area="admin" asp-controller="slider" asp-action="create" method="post" asp-antiforgery="true">
+        <div class="form-group">
+            <label asp-for="@Model.Heading">Heading</label>
+            <input asp-for="@Model.Heading" class ="form-control">
+            @* <small asp-validation-for="@Model.Heading" class="form-text text-muted">You need to enter heading.</small> *@
+        </div>
+        <div class="form-group">
+            <label asp-for="@Model.Text">Text</label>
+            <input asp-for="@Model.Text" class="form-control">
+            @* <small asp-validation-for="@Model.Text" class="form-text text-muted">You need to enter text.</small> *@
+        </div>
+        <div class="form-group">
+            <label asp-for="@Model.Image">Choose a file</label>
+            <input type="file" asp-for="@Model.Image" class="form-control">
+            @* <small asp-validation-for="@Model.Image" class="form-text text-muted">You need choose an image less than 2 mbs.</small> *@
+        </div>
+        <a class="btn btn-dark" asp-area="admin" asp-controller="slider" asp-action="index">Cancel</a>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>

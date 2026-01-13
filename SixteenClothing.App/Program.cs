@@ -2,6 +2,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using SixteenClothing.App.Contexts;
 using SixteenClothing.App.Models;
+using SixteenClothing.App.Services.Implements;
+using SixteenClothing.App.Services.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,9 +11,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<AppDbContext>(opt =>
-opt.UseNpgsql(builder.Configuration.GetConnectionString("Default")));
+opt.UseNpgsql(builder.Configuration["ConnectionStrings:Default"]));
 
-builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
+builder.Services.AddIdentity<AppUser, IdentityRole<int>>(options =>
 {
     options.Password.RequireNonAlphanumeric = true;
     options.Password.RequiredLength = 8;
@@ -29,6 +31,7 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
     options.SignIn.RequireConfirmedEmail = false;
 })
     .AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
+builder.Services.AddScoped<ISliderService, SliderService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -45,6 +48,11 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+
+app.MapControllerRoute(
+            name: "areas",
+            pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}"
+          );
 
 app.MapControllerRoute(
     name: "default",
