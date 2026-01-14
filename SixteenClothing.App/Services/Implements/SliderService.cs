@@ -4,6 +4,7 @@ using SixteenClothing.App.Contexts;
 using SixteenClothing.App.Extensions;
 using SixteenClothing.App.Models;
 using SixteenClothing.App.Services.Interfaces;
+using SixteenClothing.App.ViewModels.Pagination;
 using SixteenClothing.App.ViewModels.Slider;
 
 namespace SixteenClothing.App.Services.Implements
@@ -39,38 +40,28 @@ namespace SixteenClothing.App.Services.Implements
             await _context.SaveChangesAsync();
         }
 
-        public async Task<List<SliderGetVM>> GetAllAsync(int page, int size)
+        public async Task<PaginationViewModel<SliderGetVM>> GetAllAsync(int page, int size)
         {
-            var query = await _context.Sliders.AsQueryable()
-                .Skip(page * size)
+            var totalCount = await _context.Sliders.CountAsync();
+            var query = await _context.Sliders.OrderByDescending(x => x.CreatedAt)
+                .Skip((page - 1) * size)
                 .Take(size)
-                .Select(slider => new SliderGetVM()
-                {
-                    Id = slider.Id,
-                    Heading = slider.Heading,
-                    ImageName = slider.ImageName,
-                    ImageUrl = slider.ImageUrl,
-                    CreatedAt = slider.CreatedAt,
-                    Text = slider.Text,
-                    UpdatedAt = slider.UpdatedAt,
-                }).ToListAsync();
-            return query;
+                .Select(slider => slider.ToSliderGetVM()).ToListAsync();
+            var paginatedVM = new PaginationViewModel<SliderGetVM>(query, totalCount, page, size);
+
+            return paginatedVM;
+        }
+
+        public async Task<List<SliderGetVM>> GetAllAsync()
+        {
+            return await _context.Sliders.AsQueryable().Select(slider => slider.ToSliderGetVM()).ToListAsync();
         }
 
         public async Task<SliderGetVM> GetSingleAsync(int id)
         {
             var slider = await _context.Sliders.FindAsync(id);
             if (slider == null) throw new Exception("Slider is not found");
-            return new SliderGetVM()
-            {
-                Id = slider.Id,
-                Heading = slider.Heading,
-                ImageName = slider.ImageName,
-                ImageUrl = slider.ImageUrl,
-                CreatedAt = slider.CreatedAt,
-                Text = slider.Text,
-                UpdatedAt = slider.UpdatedAt,
-            };
+            return slider.ToSliderGetVM();
         }
 
         public async Task RemoveAsync(int id)

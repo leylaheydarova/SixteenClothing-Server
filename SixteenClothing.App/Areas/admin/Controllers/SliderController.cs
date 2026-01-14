@@ -14,7 +14,7 @@ namespace SixteenClothing.App.Areas.admin.Controllers
             _service = service;
         }
 
-        public async Task<IActionResult> Index(int page, int size)
+        public async Task<IActionResult> Index(int page = 1, int size = 15)
         {
             return View(await _service.GetAllAsync(page, size));
         }
@@ -33,22 +33,20 @@ namespace SixteenClothing.App.Areas.admin.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        [HttpGet("edit")]
-        public async Task<IActionResult> Edit(int id)
+        [HttpGet("edit/{id}")]
+        public async Task<IActionResult> Edit([FromRoute] int id)
         {
             var slider = await _service.GetSingleAsync(id);
             var vm = new SliderUpdateVM()
             {
                 Id = slider.Id,
                 Heading = slider.Heading,
-                ImageName = slider.ImageName,
-                ImageUrl = slider.ImageUrl,
                 Text = slider.Text
             };
             return View(vm);
         }
 
-        [HttpPost("edit")]
+        [HttpPost("edit/{id}")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(SliderUpdateVM vm)
         {
