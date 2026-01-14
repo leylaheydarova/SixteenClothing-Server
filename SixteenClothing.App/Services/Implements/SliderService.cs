@@ -47,9 +47,8 @@ namespace SixteenClothing.App.Services.Implements
                 .Skip((page - 1) * size)
                 .Take(size)
                 .Select(slider => slider.ToSliderGetVM()).ToListAsync();
-            var paginatedVM = new PaginationViewModel<SliderGetVM>(query, totalCount, page, size);
+            return new PaginationViewModel<SliderGetVM>(query, totalCount, page, size);
 
-            return paginatedVM;
         }
 
         public async Task<List<SliderGetVM>> GetAllAsync()

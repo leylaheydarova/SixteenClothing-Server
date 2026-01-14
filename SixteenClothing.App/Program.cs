@@ -29,9 +29,12 @@ builder.Services.AddIdentity<AppUser, IdentityRole<int>>(options =>
 
     options.SignIn.RequireConfirmedPhoneNumber = false;
     options.SignIn.RequireConfirmedEmail = false;
-})
-    .AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
+}).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
+
+//Services
 builder.Services.AddScoped<ISliderService, SliderService>();
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
