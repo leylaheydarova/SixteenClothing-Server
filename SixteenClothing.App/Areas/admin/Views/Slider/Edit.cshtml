@@ -1,4 +1,4 @@
-﻿@model SliderCreateVM
+﻿@model SliderUpdateVM
 
 
 <div class="container mt-5">
@@ -13,9 +13,10 @@
                 <div class="card-body">
                     <form asp-area="admin"
                           asp-controller="slider"
-                          asp-action="create"
+                          asp-action="edit"
+                          asp-route-id="@Model.Id"
                           method="post"
-                          enctype="multipart/form-data">
+                          >
 
                         <div class="mb-3">
                             <label asp-for="Heading" class="form-label"></label>
@@ -27,11 +28,6 @@
                             <input asp-for="Text" class="form-control" placeholder="Enter text">
                         </div>
 
-                        <div class="mb-3">
-                            <label asp-for="Image" class="form-label"></label>
-                            <input asp-for="Image" type="file" class="form-control">
-                        </div>
-
                         <div class="d-flex justify-content-end gap-2">
                             <a asp-area="admin"
                                asp-controller="slider"
@@ -41,7 +37,7 @@
                             </a>
 
                             <button type="submit" class="btn btn-primary">
-                                Create
+                                Update
                             </button>
                         </div>
 

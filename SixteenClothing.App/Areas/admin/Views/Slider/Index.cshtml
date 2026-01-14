@@ -1,4 +1,4 @@
-﻿@model List<SliderGetVM>
+﻿@model PaginationViewModel<SliderGetVM>
 
 @{
     ViewData["Slider"] = "Sliders";
@@ -19,34 +19,71 @@
             </tr>
         </thead>
         <tbody>
-            @foreach(var slider in Model ?? null)
+            @foreach(var slider in Model.Items ?? null)
             {
                 <tr>
                     <th scope="row">@slider.Id</th>
-                    <td>@slider.Heading</td>
-                    <td>@slider.Text</td>
-                    <td><img src="@slider.ImageUrl"/></td>
-                    <td>@slider.CreatedAt</td>
-                    <td>@slider.UpdatedAt</td>
-                    <td>
+                    <td>@slider.Heading.ToUpper()</td>
+                    <td>@slider.Text.ToUpper()</td>
+                    <td style="width: 80px;">
+                        <img class="img-thumbnail"
+                             style="width: 60px; height: 60px; object-fit: cover;" src="@slider.ImageUrl" />
+                    </td>
+                    <td>@slider.CreatedAt.ToString("dd.MM.yyyy HH:mm")</td>
+                    <td>@(slider.UpdatedAt?.ToString("dd.MM.yyyy HH:mm"))</td>
+                    <td class="d-flex gap-2">
                         <a class="btn btn-warning" asp-area="admin"
                         asp-controller="slider"
                         asp-action="edit"
                         asp-route-id ="@slider.Id"
                         method="post"><i class="fas fa-edit"></i></a>
+                        <form asp-area="admin"
+                              asp-controller="slider"
+                              asp-action="remove"
+                              asp-route-id="@slider.Id">
+                            <button type="submit" class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
+                        </form>
                     </td>
 
-                    <form asp-area="admin"
-                          asp-controller="slider"
-                          asp-action="remove"
-                          asp-route-id="@slider.Id">
-                          <button type="submit" class="btn btn-danger"><i class="fa-fast-backward fa-trash-alt"></i></button>
-                      </form>
-                </tr>
+                    </tr>
             }
 
             
         </tbody>
     </table>
+    <nav>
+        <ul class="pagination">
 
+            @if (Model.HasPreviousPage)
+            {
+                <li class="page-item">
+                    <a class="page-link" asp-action="Index"
+                       asp-route-page="@(Model.PageIndex - 1)">
+                        Previous
+                    </a>
+                </li>
+            }
+
+            @for (int i = 1; i <= Model.TotalPages; i++)
+            {
+                <li class="page-item @(i == Model.PageIndex ? "active" : "")">
+                    <a class="page-link" asp-action="Index"
+                       asp-route-page="@i">
+                        @i
+                    </a>
+                </li>
+            }
+
+            @if (Model.HasNextPage)
+            {
+                <li class="page-item">
+                    <a class="page-link" asp-action="Index"
+                       asp-route-page="@(Model.PageIndex+1)">
+                        Next
+                    </a>
+                </li>
+            }
+
+        </ul>
+    </nav>
 </div>

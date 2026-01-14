@@ -25,7 +25,7 @@
 
         public static bool IsSizeOk(this IFormFile file, short maxSizeInMB)
         {
-            short sizeInBytes = ((short)(maxSizeInMB * 1024 * 1024));
+            int sizeInBytes = maxSizeInMB * 1024 * 1024;
             if (file.Length > sizeInBytes) return false;
             return true;
         }
