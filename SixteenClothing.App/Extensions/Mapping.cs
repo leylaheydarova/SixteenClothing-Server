@@ -27,8 +27,8 @@ namespace SixteenClothing.App.Extensions
                 Id = category.Id,
                 Name = category.Name,
                 CreatedAt = category.CreatedAt,
-                Updatedt = category.UpdatedAt
-            }
+                UpdatedAt = category.UpdatedAt
+            };
         }
     }
 }

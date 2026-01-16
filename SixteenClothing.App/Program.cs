@@ -33,7 +33,7 @@ builder.Services.AddIdentity<AppUser, IdentityRole<int>>(options =>
 
 //Services
 builder.Services.AddScoped<ISliderService, SliderService>();
-
+builder.Services.AddScoped<ICategoryService, CategoryService>();
 
 var app = builder.Build();
 

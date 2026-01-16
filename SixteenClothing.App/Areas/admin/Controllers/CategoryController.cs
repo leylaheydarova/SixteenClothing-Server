@@ -5,6 +5,7 @@ using SixteenClothing.App.ViewModels.Category;
 
 namespace SixteenClothing.App.Areas.admin.Controllers
 {
+    [Area("Admin")]
     public class CategoryController : Controller
     {
         readonly ICategoryService _service;
@@ -33,7 +34,7 @@ namespace SixteenClothing.App.Areas.admin.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        [HttpGet("edit/{id}")]
+        [HttpGet("edit-category/{id}")]
         public async Task<IActionResult> Edit([FromRoute] int id)
         {
             var category = await _service.GetSingleAsync(id);
@@ -45,7 +46,7 @@ namespace SixteenClothing.App.Areas.admin.Controllers
             return View(editVm);
         }
 
-        [HttpPost("edit/{id}")]
+        [HttpPost("edit-category/{id}")]
         public async Task<IActionResult> Edit(CategoryUpdateVM vm)
         {
             if (!ModelState.IsValid) return View(vm);

@@ -33,7 +33,7 @@ namespace SixteenClothing.App.Areas.admin.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        [HttpGet("edit/{id}")]
+        [HttpGet("edit-slider/{id}")]
         public async Task<IActionResult> Edit([FromRoute] int id)
         {
             var slider = await _service.GetSingleAsync(id);
@@ -46,7 +46,7 @@ namespace SixteenClothing.App.Areas.admin.Controllers
             return View(vm);
         }
 
-        [HttpPost("edit/{id}")]
+        [HttpPost("edit-slider/{id}")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(SliderUpdateVM vm)
         {

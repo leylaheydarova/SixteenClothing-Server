@@ -1,4 +1,4 @@
-﻿@model SliderUpdateVM
+﻿@model CategoryUpdateVM
 
 
 <div class="container mt-5">
@@ -7,37 +7,30 @@
 
             <div class="card shadow-sm">
                 <div class="card-header bg-dark text-white">
-                    <h5 class="mb-0">Create Slider</h5>
+                    <h5 class="mb-0">Create Category</h5>
                 </div>
 
                 <div class="card-body">
                     <form asp-area="admin"
-                          asp-controller="slider"
+                          asp-controller="category"
                           asp-action="edit"
-                          asp-route-id="@Model.Id"
-                          method="post"
-                          >
+                          method="post">
 
                         <div class="mb-3">
-                            <label asp-for="Heading" class="form-label"></label>
-                            <input asp-for="Heading" class="form-control" placeholder="Enter heading">
-                        </div>
-
-                        <div class="mb-3">
-                            <label asp-for="Text" class="form-label"></label>
-                            <input asp-for="Text" class="form-control" placeholder="Enter text">
+                            <label asp-for="Name" class="form-label"></label>
+                            <input asp-for="Name" class="form-control">
                         </div>
 
                         <div class="d-flex justify-content-end gap-2">
                             <a asp-area="admin"
-                               asp-controller="slider"
+                               asp-controller="category"
                                asp-action="index"
                                class="btn btn-outline-secondary">
                                 Cancel
                             </a>
 
                             <button type="submit" class="btn btn-primary">
-                                Update
+                                Create
                             </button>
                         </div>
 

@@ -1,55 +1,48 @@
-﻿@model PaginationViewModel<SliderGetVM>
+﻿@model PaginationViewModel<CategoryGetVM>
 
 @{
-    ViewData["Slider"] = "Sliders";
+    ViewData["Category"] = "Categories";
 }
 
 <div class="container">
-    <h1>Slider list</h1>
-    <a asp-area="admin" asp-controller="slider" asp-action="create" class="btn btn-info">Create new</a>
+    <h1>Category list</h1>
+    <a asp-area="admin" asp-controller="category" asp-action="create" class="btn btn-info">Create new</a>
     <table class="table">
         <thead class="thead-dark">
             <tr>
                 <th scope="col">Id</th>
-                <th scope="col">Heading</th>
-                <th scope="col">Text</th>
-                <th scope="col">Image</th>
+                <th scope="col">Name</th>
                 <th scope="col">CreatedAt</th>
                 <th scope="col">UpdatedAt</th>
                 <th>Actions</th>
             </tr>
         </thead>
         <tbody>
-            @foreach(var slider in Model.Items ?? null)
+            @foreach (var item in Model.Items ?? null)
             {
                 <tr>
-                    <th scope="row">@slider.Id</th>
-                    <td>@slider.Heading</td>
-                    <td>@slider.Text</td>
-                    <td style="width: 80px;">
-                        <img class="img-thumbnail"
-                             style="width: 60px; height: 60px; object-fit: cover;" src="@slider.ImageUrl" />
-                    </td>
-                    <td>@slider.CreatedAt.ToString("dd.MM.yyyy HH:mm")</td>
-                    <td>@(slider.UpdatedAt?.ToString("dd.MM.yyyy HH:mm"))</td>
+                    <th scope="row">@item.Id</th>
+                    <td>@item.Name</td>
+                    <td>@item.CreatedAt.ToString("dd.MM.yyyy HH:mm")</td>
+                    <td>@(item.UpdatedAt?.ToString("dd.MM.yyyy HH:mm"))</td>
                     <td class="d-flex gap-2">
                         <a class="btn btn-warning" asp-area="admin"
-                        asp-controller="slider"
-                        asp-action="edit"
-                        asp-route-id ="@slider.Id"
-                        method="post"><i class="fas fa-edit"></i></a>
+                           asp-controller="category"
+                           asp-action="edit"
+                           asp-route-id="@item.Id"
+                           method="post"><i class="fas fa-edit"></i></a>
                         <form asp-area="admin"
-                              asp-controller="slider"
+                              asp-controller="category"
                               asp-action="remove"
-                              asp-route-id="@slider.Id">
+                              asp-route-id="@item.Id">
                             <button type="submit" class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
                         </form>
                     </td>
 
-                    </tr>
+                </tr>
             }
 
-            
+
         </tbody>
     </table>
     <nav>
@@ -79,7 +72,7 @@
             {
                 <li class="page-item">
                     <a class="page-link" asp-action="Index"
-                       asp-route-page="@(Model.PageIndex+1)">
+                       asp-route-page="@(Model.PageIndex + 1)">
                         Next
                     </a>
                 </li>

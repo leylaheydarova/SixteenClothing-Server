@@ -64,6 +64,9 @@ namespace SixteenClothing.App.Services.Implements
             var category = await _context.Categories.FindAsync(vm.Id);
             if (category == null) throw new Exception("Category was not found!");
             category.Name = vm.Name != null ? vm.Name : category.Name;
+            category.UpdatedAt = TimeZones.AzerbaijaniTime;
+            _context.Update(category);
+            await _context.SaveChangesAsync();
         }
     }
 }
