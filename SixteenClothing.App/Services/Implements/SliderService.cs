@@ -1,15 +1,15 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using SixteenClothing.App.Areas.admin.ViewModels.Slider;
 using SixteenClothing.App.Constants;
 using SixteenClothing.App.Contexts;
 using SixteenClothing.App.Extensions;
 using SixteenClothing.App.Models;
 using SixteenClothing.App.Services.Interfaces;
 using SixteenClothing.App.ViewModels.Pagination;
-using SixteenClothing.App.ViewModels.Slider;
 
 namespace SixteenClothing.App.Services.Implements
 {
-    public class SliderService : ISliderService
+    public class SliderService : IService<SliderGetVM, SliderGetVM, SliderCreateVM, SliderUpdateVM>
     {
         readonly AppDbContext _context;
         readonly IWebHostEnvironment _env;
@@ -43,7 +43,7 @@ namespace SixteenClothing.App.Services.Implements
         public async Task<PaginationViewModel<SliderGetVM>> GetAllAsync(int page, int size)
         {
             var totalCount = await _context.Sliders.CountAsync();
-            var query = await _context.Sliders.OrderByDescending(x => x.CreatedAt)
+            var query = await _context.Sliders.AsNoTracking().OrderByDescending(x => x.CreatedAt)
                 .Skip((page - 1) * size)
                 .Take(size)
                 .Select(slider => slider.ToSliderGetVM()).ToListAsync();

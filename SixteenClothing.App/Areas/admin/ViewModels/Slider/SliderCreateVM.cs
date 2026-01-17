@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace SixteenClothing.App.ViewModels.Slider
+namespace SixteenClothing.App.Areas.admin.ViewModels.Slider
 {
     public class SliderCreateVM
     {

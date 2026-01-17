@@ -4,6 +4,6 @@ namespace SixteenClothing.App.ViewModels.Home
 {
     public class HomeVM
     {
-        public List<SliderGetVM> Sliders { get; set; } = new List<SliderGetVM>();
+        public List<SliderVM> Sliders { get; set; } = new List<SliderVM>();
     }
 }

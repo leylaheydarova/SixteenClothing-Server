@@ -1,16 +1,17 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using SixteenClothing.App.Areas.admin.ViewModels.Category;
+using SixteenClothing.App.Constants;
 using SixteenClothing.App.Services.Interfaces;
-using SixteenClothing.App.ViewModels.Category;
 
 
 namespace SixteenClothing.App.Areas.admin.Controllers
 {
-    [Area("Admin")]
+    [Area(nameof(Area.Admin))]
     public class CategoryController : Controller
     {
-        readonly ICategoryService _service;
+        readonly IService<CategoryGetVM, CategoryGetVM, CategoryCreateVM, CategoryUpdateVM> _service;
 
-        public CategoryController(ICategoryService service)
+        public CategoryController(IService<CategoryGetVM, CategoryGetVM, CategoryCreateVM, CategoryUpdateVM> service)
         {
             _service = service;
         }
@@ -50,7 +51,7 @@ namespace SixteenClothing.App.Areas.admin.Controllers
         public async Task<IActionResult> Edit(CategoryUpdateVM vm)
         {
             if (!ModelState.IsValid) return View(vm);
-            await _service.Update(vm);
+            await _service.UpdateAsync(vm);
             return RedirectToAction(nameof(Index));
         }
 

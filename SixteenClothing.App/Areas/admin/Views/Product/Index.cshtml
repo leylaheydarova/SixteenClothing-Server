@@ -1,18 +1,20 @@
-﻿@model PaginationViewModel<SliderGetVM>
+﻿@using SixteenClothing.App.Areas.admin.ViewModels.Product
+@model PaginationViewModel<ProductGetVM>
 
 @{
-    ViewData["Slider"] = "Sliders";
+    ViewData["Product"] = "Products";
 }
 
 <div class="container">
-    <h1>Slider list</h1>
-    <a asp-area="admin" asp-controller="slider" asp-action="create" class="btn btn-info">Create new</a>
+    <h1>Product list</h1>
+    <a asp-area="admin" asp-controller="product" asp-action="create" class="btn btn-info">Create new</a>
     <table class="table">
         <thead class="thead-dark">
             <tr>
                 <th scope="col">Id</th>
-                <th scope="col">Heading</th>
-                <th scope="col">Text</th>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+                <th scope="col">Price</th>
                 <th scope="col">Image</th>
                 <th scope="col">CreatedAt</th>
                 <th scope="col">UpdatedAt</th>
@@ -24,8 +26,9 @@
             {
                 <tr>
                     <th scope="row">@item.Id</th>
-                    <td>@item.Heading</td>
-                    <td>@item.Text</td>
+                    <td>@item.Name</td>
+                    <td>@item.Description</td>
+                    <td>@item.Price</td>
                     <td style="width: 80px;">
                         <img class="img-thumbnail"
                              style="width: 60px; height: 60px; object-fit: cover;" src="@item.ImageUrl" />
@@ -34,12 +37,12 @@
                     <td>@(item.UpdatedAt?.ToString("dd.MM.yyyy HH:mm"))</td>
                     <td class="d-flex gap-2">
                         <a class="btn btn-warning" asp-area="admin"
-                        asp-controller="slider"
-                        asp-action="edit"
+                           asp-controller="product"
+                           asp-action="edit"
                            asp-route-id="@item.Id"
-                        method="post"><i class="fas fa-edit"></i></a>
+                           method="post"><i class="fas fa-edit"></i></a>
                         <form asp-area="admin"
-                              asp-controller="slider"
+                              asp-controller="product"
                               asp-action="remove"
                               asp-route-id="@item.Id">
                             <button type="submit" class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
@@ -49,7 +52,7 @@
                 </tr>
             }
 
-            
+
         </tbody>
     </table>
     <nav>
@@ -79,7 +82,7 @@
             {
                 <li class="page-item">
                     <a class="page-link" asp-action="Index"
-                       asp-route-page="@(Model.PageIndex+1)">
+                       asp-route-page="@(Model.PageIndex + 1)">
                         Next
                     </a>
                 </li>

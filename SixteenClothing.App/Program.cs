@@ -1,5 +1,8 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using SixteenClothing.App.Areas.admin.ViewModels.Category;
+using SixteenClothing.App.Areas.admin.ViewModels.Product;
+using SixteenClothing.App.Areas.admin.ViewModels.Slider;
 using SixteenClothing.App.Contexts;
 using SixteenClothing.App.Models;
 using SixteenClothing.App.Services.Implements;
@@ -32,8 +35,9 @@ builder.Services.AddIdentity<AppUser, IdentityRole<int>>(options =>
 }).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
 
 //Services
-builder.Services.AddScoped<ISliderService, SliderService>();
-builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<IService<SliderGetVM, SliderGetVM, SliderCreateVM, SliderUpdateVM>, SliderService>();
+builder.Services.AddScoped<IService<CategoryGetVM, CategoryGetVM, CategoryCreateVM, CategoryUpdateVM>, CategoryService>();
+builder.Services.AddScoped<IService<ProductGetVM, ProductGetVM, ProductCreateVM, ProductUpdateVM>, ProductService>();
 
 var app = builder.Build();
 

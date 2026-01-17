@@ -1,15 +1,16 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using SixteenClothing.App.Areas.admin.ViewModels.Slider;
+using SixteenClothing.App.Constants;
 using SixteenClothing.App.Services.Interfaces;
-using SixteenClothing.App.ViewModels.Slider;
 
 namespace SixteenClothing.App.Areas.admin.Controllers
 {
-    [Area("admin")]
+    [Area(nameof(Area.Admin))]
     public class SliderController : Controller
     {
-        readonly ISliderService _service;
+        readonly IService<SliderGetVM, SliderGetVM, SliderCreateVM, SliderUpdateVM> _service;
 
-        public SliderController(ISliderService service)
+        public SliderController(IService<SliderGetVM, SliderGetVM, SliderCreateVM, SliderUpdateVM> service)
         {
             _service = service;
         }

@@ -1,4 +1,4 @@
-﻿namespace SixteenClothing.App.ViewModels.Category
+﻿namespace SixteenClothing.App.Areas.admin.ViewModels.Category
 {
     public class CategoryUpdateVM
     {

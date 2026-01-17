@@ -1,6 +1,7 @@
-﻿using SixteenClothing.App.Models;
-using SixteenClothing.App.ViewModels.Category;
-using SixteenClothing.App.ViewModels.Slider;
+﻿using SixteenClothing.App.Areas.admin.ViewModels.Category;
+using SixteenClothing.App.Areas.admin.ViewModels.Product;
+using SixteenClothing.App.Areas.admin.ViewModels.Slider;
+using SixteenClothing.App.Models;
 
 namespace SixteenClothing.App.Extensions
 {
@@ -12,7 +13,6 @@ namespace SixteenClothing.App.Extensions
             {
                 Id = slider.Id,
                 Heading = slider.Heading,
-                ImageName = slider.ImageName,
                 ImageUrl = slider.ImageUrl,
                 CreatedAt = slider.CreatedAt,
                 Text = slider.Text,
@@ -30,5 +30,20 @@ namespace SixteenClothing.App.Extensions
                 UpdatedAt = category.UpdatedAt
             };
         }
+
+        public static ProductGetVM ToProductGetVM(this Product product)
+        {
+            return new ProductGetVM
+            {
+                Id = product.Id,
+                Name = product.Name,
+                Description = product.Description,
+                ImageUrl = product.ImageUrl,
+                Price = product.Price,
+                CreatedAt = product.CreatedAt,
+                UpdatedAt = product.UpdatedAt
+            };
+        }
+
     }
 }

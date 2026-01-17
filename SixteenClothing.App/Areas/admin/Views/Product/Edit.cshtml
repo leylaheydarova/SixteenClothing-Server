@@ -1,0 +1,58 @@
+﻿@using SixteenClothing.App.Areas.admin.ViewModels.Product
+@model ProductUpdateVM
+
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+
+            <div class="card shadow-sm">
+                <div class="card-header bg-dark text-white">
+                    <h5 class="mb-0">Update Product</h5>
+                </div>
+
+                <div class="card-body">
+                    <form asp-area="admin"
+                          asp-controller="product"
+                          asp-action="edit"
+                          method="post"
+                          enctype="multipart/form-data">
+
+                        <div class="mb-3">
+                            <label asp-for="Name" class="form-label"></label>
+                            <input asp-for="Name" class="form-control" placeholder="Enter Product Name">
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="Description" class="form-label"></label>
+                            <input asp-for="Description" class="form-control" placeholder="Enter Description">
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="Price" class="form-label"></label>
+                            <input asp-for="Price" type="number" step="0.01" class="form-control" placeholder="Enter Price">
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="Image" class="form-label">Choose a file</label>
+                            <input asp-for="Image" type="file" class="form-control">
+                        </div>
+                        
+
+                        <div class="d-flex justify-content-end gap-2">
+                            <a asp-area="admin"
+                               asp-controller="product"
+                               asp-action="index"
+                               class="btn btn-outline-secondary">
+                                Cancel
+                            </a>
+
+                            <button type="submit" class="btn btn-primary">
+                                Update
+                            </button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

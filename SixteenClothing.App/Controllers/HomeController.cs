@@ -1,21 +1,29 @@
 using Microsoft.AspNetCore.Mvc;
-using SixteenClothing.App.Services.Interfaces;
+using Microsoft.EntityFrameworkCore;
+using SixteenClothing.App.Contexts;
 using SixteenClothing.App.ViewModels.Home;
+using SixteenClothing.App.ViewModels.Slider;
 
 namespace SixteenClothing.App.Controllers
 {
     public class HomeController : Controller
     {
-        readonly ISliderService _service;
+        readonly AppDbContext _context;
 
-        public HomeController(ISliderService service)
+        public HomeController(AppDbContext context)
         {
-            _service = service;
+            _context = context;
         }
 
         public async Task<IActionResult> Index()
         {
-            var sliders = await _service.GetAllAsync();
+            var sliders = await _context.Sliders.AsQueryable().Select(slider => new SliderVM
+            {
+                Id = slider.Id,
+                Heading = slider.Heading,
+                ImageUrl = slider.ImageUrl,
+                Text = slider.Text
+            }).ToListAsync();
             var homeVM = new HomeVM { Sliders = sliders };
             return View(homeVM);
         }
