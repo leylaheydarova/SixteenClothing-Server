@@ -3,40 +3,48 @@
   "WorkspaceRootPath": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|d:\\programming\\development\\sixteenclothing\\sixteenclothing-server\\sixteenclothing.app\\services\\implements\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|solutionrelative:sixteenclothing.app\\services\\implements\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|d:\\programming\\development\\sixteenclothing\\sixteenclothing-server\\sixteenclothing.app\\controllers\\ourproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|solutionrelative:sixteenclothing.app\\controllers\\ourproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|d:\\programming\\development\\sixteenclothing\\sixteenclothing-server\\sixteenclothing.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|solutionrelative:sixteenclothing.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|d:\\programming\\development\\sixteenclothing\\sixteenclothing-server\\sixteenclothing.app\\services\\implements\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|solutionrelative:sixteenclothing.app\\services\\implements\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|d:\\programming\\development\\sixteenclothing\\sixteenclothing-server\\sixteenclothing.app\\services\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|solutionrelative:sixteenclothing.app\\services\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|d:\\programming\\development\\sixteenclothing\\sixteenclothing-server\\sixteenclothing.app\\viewmodels\\product\\ourproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|solutionrelative:sixteenclothing.app\\viewmodels\\product\\ourproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|d:\\programming\\development\\sixteenclothing\\sixteenclothing-server\\sixteenclothing.app\\viewmodels\\category\\categoryvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|solutionrelative:sixteenclothing.app\\viewmodels\\category\\categoryvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|d:\\programming\\development\\sixteenclothing\\sixteenclothing-server\\sixteenclothing.app\\services\\implements\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|solutionrelative:sixteenclothing.app\\services\\implements\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|d:\\programming\\development\\sixteenclothing\\sixteenclothing-server\\sixteenclothing.app\\views\\ourproduct\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|solutionrelative:sixteenclothing.app\\views\\ourproduct\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|d:\\programming\\development\\sixteenclothing\\sixteenclothing-server\\sixteenclothing.app\\services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|solutionrelative:sixteenclothing.app\\services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|d:\\programming\\development\\sixteenclothing\\sixteenclothing-server\\sixteenclothing.app\\services\\implements\\sliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|solutionrelative:sixteenclothing.app\\services\\implements\\sliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|d:\\programming\\development\\sixteenclothing\\sixteenclothing-server\\sixteenclothing.app\\services\\implements\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|solutionrelative:sixteenclothing.app\\services\\implements\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|d:\\programming\\development\\sixteenclothing\\sixteenclothing-server\\sixteenclothing.app\\viewmodels\\pagination\\paginationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|solutionrelative:sixteenclothing.app\\viewmodels\\pagination\\paginationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|d:\\programming\\development\\sixteenclothing\\sixteenclothing-server\\sixteenclothing.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|solutionrelative:sixteenclothing.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|d:\\programming\\development\\sixteenclothing\\sixteenclothing-server\\sixteenclothing.app\\services\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|solutionrelative:sixteenclothing.app\\services\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|d:\\programming\\development\\sixteenclothing\\sixteenclothing-server\\sixteenclothing.app\\viewmodels\\category\\categoryvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|solutionrelative:sixteenclothing.app\\viewmodels\\category\\categoryvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|d:\\programming\\development\\sixteenclothing\\sixteenclothing-server\\sixteenclothing.app\\services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|solutionrelative:sixteenclothing.app\\services\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|d:\\programming\\development\\sixteenclothing\\sixteenclothing-server\\sixteenclothing.app\\extensions\\mapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -81,10 +89,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|d:\\programming\\development\\sixteenclothing\\sixteenclothing-server\\sixteenclothing.app\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|solutionrelative:sixteenclothing.app\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|d:\\programming\\development\\sixteenclothing\\sixteenclothing-server\\sixteenclothing.app\\services\\implements\\sliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|solutionrelative:sixteenclothing.app\\services\\implements\\sliderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|d:\\programming\\development\\sixteenclothing\\sixteenclothing-server\\sixteenclothing.app\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -219,10 +223,6 @@
       "RelativeMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|solutionrelative:sixteenclothing.app\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|d:\\programming\\development\\sixteenclothing\\sixteenclothing-server\\sixteenclothing.app\\viewmodels\\pagination\\paginationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|solutionrelative:sixteenclothing.app\\viewmodels\\pagination\\paginationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|d:\\programming\\development\\sixteenclothing\\sixteenclothing-server\\sixteenclothing.app\\constants\\timezones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CFDA9E84-03E9-49B9-8F44-F67F54DC2DC0}|SixteenClothing.App\\SixteenClothing.App.csproj|solutionrelative:sixteenclothing.app\\constants\\timezones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -269,25 +269,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Program.cs",
               "RelativeDocumentMoniker": "SixteenClothing.App\\Program.cs",
-              "ToolTip": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Program.cs*",
-              "RelativeToolTip": "SixteenClothing.App\\Program.cs*",
+              "ToolTip": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Program.cs",
+              "RelativeToolTip": "SixteenClothing.App\\Program.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T11:48:14.053Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Mapping.cs",
               "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Extensions\\Mapping.cs",
               "RelativeDocumentMoniker": "SixteenClothing.App\\Extensions\\Mapping.cs",
@@ -296,12 +295,63 @@
               "ViewState": "AgIAAB4AAAAAAAAAAAAIwA4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-14T11:20:43.386Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OurProductVM.cs",
+              "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\ViewModels\\Product\\OurProductVM.cs",
+              "RelativeDocumentMoniker": "SixteenClothing.App\\ViewModels\\Product\\OurProductVM.cs",
+              "ToolTip": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\ViewModels\\Product\\OurProductVM.cs",
+              "RelativeToolTip": "SixteenClothing.App\\ViewModels\\Product\\OurProductVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T07:16:36.099Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Services\\Implements\\CategoryService.cs",
+              "RelativeDocumentMoniker": "SixteenClothing.App\\Services\\Implements\\CategoryService.cs",
+              "ToolTip": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Services\\Implements\\CategoryService.cs",
+              "RelativeToolTip": "SixteenClothing.App\\Services\\Implements\\CategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T12:20:52.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Views\\OurProduct\\Index.cshtml",
+              "RelativeDocumentMoniker": "SixteenClothing.App\\Views\\OurProduct\\Index.cshtml",
+              "ToolTip": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Views\\OurProduct\\Index.cshtml",
+              "RelativeToolTip": "SixteenClothing.App\\Views\\OurProduct\\Index.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAB4AAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-16T07:22:06.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Services\\Implements\\ProductService.cs",
+              "RelativeDocumentMoniker": "SixteenClothing.App\\Services\\Implements\\ProductService.cs",
+              "ToolTip": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Services\\Implements\\ProductService.cs",
+              "RelativeToolTip": "SixteenClothing.App\\Services\\Implements\\ProductService.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAIwD4AAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T10:36:30.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ICategoryService.cs",
               "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Services\\Interfaces\\ICategoryService.cs",
               "RelativeDocumentMoniker": "SixteenClothing.App\\Services\\Interfaces\\ICategoryService.cs",
@@ -309,225 +359,11 @@
               "RelativeToolTip": "SixteenClothing.App\\Services\\Interfaces\\ICategoryService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T05:18:15.075Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Services\\Interfaces\\IProductService.cs",
-              "RelativeDocumentMoniker": "SixteenClothing.App\\Services\\Interfaces\\IProductService.cs",
-              "ToolTip": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Services\\Interfaces\\IProductService.cs",
-              "RelativeToolTip": "SixteenClothing.App\\Services\\Interfaces\\IProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T05:05:19.366Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OurProductController.cs",
-              "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Controllers\\OurProductController.cs",
-              "RelativeDocumentMoniker": "SixteenClothing.App\\Controllers\\OurProductController.cs",
-              "ToolTip": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Controllers\\OurProductController.cs*",
-              "RelativeToolTip": "SixteenClothing.App\\Controllers\\OurProductController.cs*",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAIwB0AAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T07:15:50.714Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OurProductVM.cs",
-              "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\ViewModels\\Product\\OurProductVM.cs",
-              "RelativeDocumentMoniker": "SixteenClothing.App\\ViewModels\\Product\\OurProductVM.cs",
-              "ToolTip": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\ViewModels\\Product\\OurProductVM.cs*",
-              "RelativeToolTip": "SixteenClothing.App\\ViewModels\\Product\\OurProductVM.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAswAYAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T07:16:36.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Services\\Implements\\ProductService.cs",
-              "RelativeDocumentMoniker": "SixteenClothing.App\\Services\\Implements\\ProductService.cs",
-              "ToolTip": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Services\\Implements\\ProductService.cs",
-              "RelativeToolTip": "SixteenClothing.App\\Services\\Implements\\ProductService.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAEoAAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T10:36:30.816Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Services\\Implements\\CategoryService.cs",
-              "RelativeDocumentMoniker": "SixteenClothing.App\\Services\\Implements\\CategoryService.cs",
-              "ToolTip": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Services\\Implements\\CategoryService.cs",
-              "RelativeToolTip": "SixteenClothing.App\\Services\\Implements\\CategoryService.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAAB8AAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T12:20:52.372Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-21T05:18:15.075Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "CategoryVM.cs",
-              "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\ViewModels\\Category\\CategoryVM.cs",
-              "RelativeDocumentMoniker": "SixteenClothing.App\\ViewModels\\Category\\CategoryVM.cs",
-              "ToolTip": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\ViewModels\\Category\\CategoryVM.cs*",
-              "RelativeToolTip": "SixteenClothing.App\\ViewModels\\Category\\CategoryVM.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T12:35:43.666Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IService.cs",
-              "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Services\\Interfaces\\IService.cs",
-              "RelativeDocumentMoniker": "SixteenClothing.App\\Services\\Interfaces\\IService.cs",
-              "ToolTip": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Services\\Interfaces\\IService.cs",
-              "RelativeToolTip": "SixteenClothing.App\\Services\\Interfaces\\IService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAswAoAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T10:32:32.988Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Views\\OurProduct\\Index.cshtml",
-              "RelativeDocumentMoniker": "SixteenClothing.App\\Views\\OurProduct\\Index.cshtml",
-              "ToolTip": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Views\\OurProduct\\Index.cshtml",
-              "RelativeToolTip": "SixteenClothing.App\\Views\\OurProduct\\Index.cshtml",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAACMAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-16T07:22:06.194Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ProductVM.cs",
-              "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\ViewModels\\Product\\ProductVM.cs",
-              "RelativeDocumentMoniker": "SixteenClothing.App\\ViewModels\\Product\\ProductVM.cs",
-              "ToolTip": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\ViewModels\\Product\\ProductVM.cs",
-              "RelativeToolTip": "SixteenClothing.App\\ViewModels\\Product\\ProductVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T12:36:20.524Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SliderVM.cs",
-              "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\ViewModels\\Slider\\SliderVM.cs",
-              "RelativeDocumentMoniker": "SixteenClothing.App\\ViewModels\\Slider\\SliderVM.cs",
-              "ToolTip": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\ViewModels\\Slider\\SliderVM.cs",
-              "RelativeToolTip": "SixteenClothing.App\\ViewModels\\Slider\\SliderVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T12:33:06.054Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "SixteenClothing.App\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "SixteenClothing.App\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADkAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-13T10:55:12.547Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "SixteenClothing.App\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "SixteenClothing.App\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-13T10:56:19.749Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\Views\\Slider\\Create.cshtml",
-              "RelativeDocumentMoniker": "SixteenClothing.App\\Areas\\admin\\Views\\Slider\\Create.cshtml",
-              "ToolTip": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\Views\\Slider\\Create.cshtml",
-              "RelativeToolTip": "SixteenClothing.App\\Areas\\admin\\Views\\Slider\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-13T13:13:22.49Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\Views\\Slider\\Edit.cshtml",
-              "RelativeDocumentMoniker": "SixteenClothing.App\\Areas\\admin\\Views\\Slider\\Edit.cshtml",
-              "ToolTip": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\Views\\Slider\\Edit.cshtml",
-              "RelativeToolTip": "SixteenClothing.App\\Areas\\admin\\Views\\Slider\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-14T11:08:40.873Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\Views\\Slider\\Index.cshtml",
-              "RelativeDocumentMoniker": "SixteenClothing.App\\Areas\\admin\\Views\\Slider\\Index.cshtml",
-              "ToolTip": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\Views\\Slider\\Index.cshtml",
-              "RelativeToolTip": "SixteenClothing.App\\Areas\\admin\\Views\\Slider\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-13T13:01:08.849Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "SixteenClothing.App\\Areas\\admin\\Views\\_ViewImports.cshtml",
-              "ToolTip": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "SixteenClothing.App\\Areas\\admin\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-13T11:09:51.783Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\Views\\Category\\Create.cshtml",
-              "RelativeDocumentMoniker": "SixteenClothing.App\\Areas\\admin\\Views\\Category\\Create.cshtml",
-              "ToolTip": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\Views\\Category\\Create.cshtml",
-              "RelativeToolTip": "SixteenClothing.App\\Areas\\admin\\Views\\Category\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-16T06:26:09.356Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
               "Title": "SliderService.cs",
               "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Services\\Implements\\SliderService.cs",
               "RelativeDocumentMoniker": "SixteenClothing.App\\Services\\Implements\\SliderService.cs",
@@ -540,7 +376,176 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OurProductController.cs",
+              "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Controllers\\OurProductController.cs",
+              "RelativeDocumentMoniker": "SixteenClothing.App\\Controllers\\OurProductController.cs",
+              "ToolTip": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Controllers\\OurProductController.cs",
+              "RelativeToolTip": "SixteenClothing.App\\Controllers\\OurProductController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAIwBQAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T07:15:50.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PaginationViewModel.cs",
+              "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\ViewModels\\Pagination\\PaginationViewModel.cs",
+              "RelativeDocumentMoniker": "SixteenClothing.App\\ViewModels\\Pagination\\PaginationViewModel.cs",
+              "ToolTip": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\ViewModels\\Pagination\\PaginationViewModel.cs",
+              "RelativeToolTip": "SixteenClothing.App\\ViewModels\\Pagination\\PaginationViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T10:23:54.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CategoryVM.cs",
+              "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\ViewModels\\Category\\CategoryVM.cs",
+              "RelativeDocumentMoniker": "SixteenClothing.App\\ViewModels\\Category\\CategoryVM.cs",
+              "ToolTip": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\ViewModels\\Category\\CategoryVM.cs",
+              "RelativeToolTip": "SixteenClothing.App\\ViewModels\\Category\\CategoryVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T12:35:43.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Services\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "SixteenClothing.App\\Services\\Interfaces\\IProductService.cs",
+              "ToolTip": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Services\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "SixteenClothing.App\\Services\\Interfaces\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T05:05:19.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IService.cs",
+              "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Services\\Interfaces\\IService.cs",
+              "RelativeDocumentMoniker": "SixteenClothing.App\\Services\\Interfaces\\IService.cs",
+              "ToolTip": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Services\\Interfaces\\IService.cs",
+              "RelativeToolTip": "SixteenClothing.App\\Services\\Interfaces\\IService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T10:32:32.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductVM.cs",
+              "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\ViewModels\\Product\\ProductVM.cs",
+              "RelativeDocumentMoniker": "SixteenClothing.App\\ViewModels\\Product\\ProductVM.cs",
+              "ToolTip": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\ViewModels\\Product\\ProductVM.cs",
+              "RelativeToolTip": "SixteenClothing.App\\ViewModels\\Product\\ProductVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T12:36:20.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SliderVM.cs",
+              "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\ViewModels\\Slider\\SliderVM.cs",
+              "RelativeDocumentMoniker": "SixteenClothing.App\\ViewModels\\Slider\\SliderVM.cs",
+              "ToolTip": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\ViewModels\\Slider\\SliderVM.cs",
+              "RelativeToolTip": "SixteenClothing.App\\ViewModels\\Slider\\SliderVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T12:33:06.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SixteenClothing.App\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SixteenClothing.App\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADkAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T10:55:12.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SixteenClothing.App\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SixteenClothing.App\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T10:56:19.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\Views\\Slider\\Create.cshtml",
+              "RelativeDocumentMoniker": "SixteenClothing.App\\Areas\\admin\\Views\\Slider\\Create.cshtml",
+              "ToolTip": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\Views\\Slider\\Create.cshtml",
+              "RelativeToolTip": "SixteenClothing.App\\Areas\\admin\\Views\\Slider\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T13:13:22.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\Views\\Slider\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SixteenClothing.App\\Areas\\admin\\Views\\Slider\\Edit.cshtml",
+              "ToolTip": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\Views\\Slider\\Edit.cshtml",
+              "RelativeToolTip": "SixteenClothing.App\\Areas\\admin\\Views\\Slider\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T11:08:40.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\Views\\Slider\\Index.cshtml",
+              "RelativeDocumentMoniker": "SixteenClothing.App\\Areas\\admin\\Views\\Slider\\Index.cshtml",
+              "ToolTip": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\Views\\Slider\\Index.cshtml",
+              "RelativeToolTip": "SixteenClothing.App\\Areas\\admin\\Views\\Slider\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T13:01:08.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "SixteenClothing.App\\Areas\\admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "SixteenClothing.App\\Areas\\admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-13T11:09:51.783Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 21,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "SixteenClothing.App\\Areas\\admin\\Views\\Category\\Create.cshtml",
+              "ToolTip": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "SixteenClothing.App\\Areas\\admin\\Views\\Category\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-16T06:26:09.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "SixteenClothing.App\\Controllers\\HomeController.cs",
@@ -552,7 +557,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "HomeVM.cs",
               "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\ViewModels\\Home\\HomeVM.cs",
               "RelativeDocumentMoniker": "SixteenClothing.App\\ViewModels\\Home\\HomeVM.cs",
@@ -564,7 +569,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "ProductGetVM.cs",
               "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\ViewModels\\Product\\ProductGetVM.cs",
               "RelativeDocumentMoniker": "SixteenClothing.App\\Areas\\admin\\ViewModels\\Product\\ProductGetVM.cs",
@@ -576,7 +581,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "SliderUpdateVM.cs",
               "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\ViewModels\\Slider\\SliderUpdateVM.cs",
               "RelativeDocumentMoniker": "SixteenClothing.App\\Areas\\admin\\ViewModels\\Slider\\SliderUpdateVM.cs",
@@ -588,7 +593,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "SliderGetVM.cs",
               "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\ViewModels\\Slider\\SliderGetVM.cs",
               "RelativeDocumentMoniker": "SixteenClothing.App\\Areas\\admin\\ViewModels\\Slider\\SliderGetVM.cs",
@@ -600,7 +605,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "SliderCreateVM.cs",
               "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\ViewModels\\Slider\\SliderCreateVM.cs",
               "RelativeDocumentMoniker": "SixteenClothing.App\\Areas\\admin\\ViewModels\\Slider\\SliderCreateVM.cs",
@@ -612,7 +617,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "CategoryCreateVM.cs",
               "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\ViewModels\\Category\\CategoryCreateVM.cs",
               "RelativeDocumentMoniker": "SixteenClothing.App\\Areas\\admin\\ViewModels\\Category\\CategoryCreateVM.cs",
@@ -624,7 +629,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "ProductCreateVM.cs",
               "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\ViewModels\\Product\\ProductCreateVM.cs",
               "RelativeDocumentMoniker": "SixteenClothing.App\\Areas\\admin\\ViewModels\\Product\\ProductCreateVM.cs",
@@ -636,7 +641,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "ProductController.cs",
               "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "SixteenClothing.App\\Areas\\admin\\Controllers\\ProductController.cs",
@@ -648,7 +653,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\Views\\Product\\Edit.cshtml",
               "RelativeDocumentMoniker": "SixteenClothing.App\\Areas\\admin\\Views\\Product\\Edit.cshtml",
@@ -660,7 +665,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\Views\\Category\\Edit.cshtml",
               "RelativeDocumentMoniker": "SixteenClothing.App\\Areas\\admin\\Views\\Category\\Edit.cshtml",
@@ -672,7 +677,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\Views\\Product\\Create.cshtml",
               "RelativeDocumentMoniker": "SixteenClothing.App\\Areas\\admin\\Views\\Product\\Create.cshtml",
@@ -684,7 +689,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "SixteenClothing.App\\Areas\\admin\\Controllers\\CategoryController.cs",
@@ -696,7 +701,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "FilePaths.cs",
               "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Constants\\FilePaths.cs",
               "RelativeDocumentMoniker": "SixteenClothing.App\\Constants\\FilePaths.cs",
@@ -708,7 +713,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "FileExtension.cs",
               "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Extensions\\FileExtension.cs",
               "RelativeDocumentMoniker": "SixteenClothing.App\\Extensions\\FileExtension.cs",
@@ -716,12 +721,11 @@
               "RelativeToolTip": "SixteenClothing.App\\Extensions\\FileExtension.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T11:19:17.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-13T11:19:17.023Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "SliderController.cs",
               "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\Controllers\\SliderController.cs",
               "RelativeDocumentMoniker": "SixteenClothing.App\\Areas\\admin\\Controllers\\SliderController.cs",
@@ -729,12 +733,11 @@
               "RelativeToolTip": "SixteenClothing.App\\Areas\\admin\\Controllers\\SliderController.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAAADoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T11:10:44.271Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-13T11:10:44.271Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "ScaffoldingReadMe.txt",
               "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\ScaffoldingReadMe.txt",
               "RelativeDocumentMoniker": "SixteenClothing.App\\ScaffoldingReadMe.txt",
@@ -746,7 +749,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\Views\\Category\\Index.cshtml",
               "RelativeDocumentMoniker": "SixteenClothing.App\\Areas\\admin\\Views\\Category\\Index.cshtml",
@@ -758,7 +761,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "SixteenClothing.App\\Areas\\admin\\Views\\Product\\Index.cshtml",
@@ -770,7 +773,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\Views\\Dashboard\\Index.cshtml",
               "RelativeDocumentMoniker": "SixteenClothing.App\\Areas\\admin\\Views\\Dashboard\\Index.cshtml",
@@ -782,7 +785,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "SixteenClothing.App\\Areas\\admin\\Controllers\\DashboardController.cs",
@@ -794,7 +797,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "Area.cs",
               "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Constants\\Area.cs",
               "RelativeDocumentMoniker": "SixteenClothing.App\\Constants\\Area.cs",
@@ -806,7 +809,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "ProductUpdateVM.cs",
               "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\ViewModels\\Product\\ProductUpdateVM.cs",
               "RelativeDocumentMoniker": "SixteenClothing.App\\Areas\\admin\\ViewModels\\Product\\ProductUpdateVM.cs",
@@ -818,7 +821,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Models\\Product.cs",
               "RelativeDocumentMoniker": "SixteenClothing.App\\Models\\Product.cs",
@@ -830,7 +833,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "20260114110656_nullableUpdatedAt.cs",
               "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Migrations\\20260114110656_nullableUpdatedAt.cs",
               "RelativeDocumentMoniker": "SixteenClothing.App\\Migrations\\20260114110656_nullableUpdatedAt.cs",
@@ -842,7 +845,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "SixteenClothing.App\\Views\\_ViewImports.cshtml",
@@ -854,7 +857,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "SixteenClothing.App\\Areas\\admin\\Views\\Shared\\_Layout.cshtml",
@@ -866,7 +869,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "CategoryGetVM.cs",
               "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\ViewModels\\Category\\CategoryGetVM.cs",
               "RelativeDocumentMoniker": "SixteenClothing.App\\Areas\\admin\\ViewModels\\Category\\CategoryGetVM.cs",
@@ -878,7 +881,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "CategoryUpdateVM.cs",
               "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\ViewModels\\Category\\CategoryUpdateVM.cs",
               "RelativeDocumentMoniker": "SixteenClothing.App\\Areas\\admin\\ViewModels\\Category\\CategoryUpdateVM.cs",
@@ -890,7 +893,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "owl.css",
               "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\wwwroot\\assets\\css\\owl.css",
               "RelativeDocumentMoniker": "SixteenClothing.App\\wwwroot\\assets\\css\\owl.css",
@@ -902,7 +905,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Areas\\admin\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "SixteenClothing.App\\Areas\\admin\\Views\\_ViewStart.cshtml",
@@ -914,7 +917,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "Slider.cs",
               "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Models\\Slider.cs",
               "RelativeDocumentMoniker": "SixteenClothing.App\\Models\\Slider.cs",
@@ -926,7 +929,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\Models\\BaseModels\\BaseEntity.cs",
               "RelativeDocumentMoniker": "SixteenClothing.App\\Models\\BaseModels\\BaseEntity.cs",
@@ -935,18 +938,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T10:31:26.902Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "PaginationViewModel.cs",
-              "DocumentMoniker": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\ViewModels\\Pagination\\PaginationViewModel.cs",
-              "RelativeDocumentMoniker": "SixteenClothing.App\\ViewModels\\Pagination\\PaginationViewModel.cs",
-              "ToolTip": "D:\\Programming\\Development\\SixteenClothing\\SixteenClothing-Server\\SixteenClothing.App\\ViewModels\\Pagination\\PaginationViewModel.cs",
-              "RelativeToolTip": "SixteenClothing.App\\ViewModels\\Pagination\\PaginationViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T10:23:54.915Z"
             },
             {
               "$type": "Document",
