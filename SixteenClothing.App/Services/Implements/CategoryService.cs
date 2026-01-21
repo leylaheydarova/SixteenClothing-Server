@@ -9,7 +9,7 @@ using SixteenClothing.App.ViewModels.Pagination;
 
 namespace SixteenClothing.App.Services.Implements
 {
-    public class CategoryService : IService<CategoryGetVM, CategoryGetVM, CategoryCreateVM, CategoryUpdateVM>
+    public class CategoryService : ICategoryService
     {
         readonly AppDbContext _context;
 
@@ -29,9 +29,14 @@ namespace SixteenClothing.App.Services.Implements
             await _context.SaveChangesAsync();
         }
 
+        public async Task<ICollection<Category>> GetAllEntitiesAsync()
+        {
+            return await _context.Categories.AsNoTracking().ToListAsync();
+        }
+
         public async Task<PaginationViewModel<CategoryGetVM>> GetAllAsync(int page, int size)
         {
-            var totalPages = await _context.Categories.CountAsync();
+            var totalPages = (await _context.Categories.CountAsync()) / size;
             var query = await _context.Categories.AsNoTracking().OrderByDescending(c => c.CreatedAt)
                 .Skip((page - 1) * size)
                 .Take(size)

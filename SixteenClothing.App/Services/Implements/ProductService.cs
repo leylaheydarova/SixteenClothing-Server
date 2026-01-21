@@ -6,10 +6,11 @@ using SixteenClothing.App.Extensions;
 using SixteenClothing.App.Models;
 using SixteenClothing.App.Services.Interfaces;
 using SixteenClothing.App.ViewModels.Pagination;
+using SixteenClothing.App.ViewModels.Product;
 
 namespace SixteenClothing.App.Services.Implements
 {
-    public class ProductService : IService<ProductGetVM, ProductGetVM, ProductCreateVM, ProductUpdateVM>
+    public class ProductService : IProductService
     {
         readonly AppDbContext _context;
         readonly IWebHostEnvironment _env;
@@ -42,17 +43,36 @@ namespace SixteenClothing.App.Services.Implements
 
         public async Task<PaginationViewModel<ProductGetVM>> GetAllAsync(int page, int size)
         {
-            var totalCount = await _context.Products.CountAsync();
+            var totalPages = (int)Math.Ceiling((double)(await _context.Products.CountAsync()) / size);
             var query = await _context.Products.AsNoTracking().OrderByDescending(c => c.CreatedAt)
                 .Skip((page - 1) * size)
                 .Take(size)
                 .Select(product => product.ToProductGetVM()).ToListAsync();
-            return new PaginationViewModel<ProductGetVM>(query, totalCount, page, size);
+            return new PaginationViewModel<ProductGetVM>(query, totalPages, page, size);
         }
 
         public async Task<List<ProductGetVM>> GetAllAsync()
         {
             return await _context.Products.AsNoTracking().Select(product => product.ToProductGetVM()).ToListAsync();
+        }
+
+        public async Task<PaginationViewModel<ProductVM>> GetAllAsync(int? categoryId, int page, int size)
+        {
+            var totalPages = (await _context.Products.CountAsync()) / size;
+            var products = _context.Products.AsNoTracking().AsQueryable();
+            if (categoryId.HasValue) products = products.Where(p => p.CategoryId == categoryId);
+            var query = await products
+                .Skip((page - 1) * size)
+                .Take(size)
+                .Select(product => new ProductVM()
+                {
+                    Id = product.Id,
+                    Description = product.Description,
+                    ImageUrl = product.ImageUrl,
+                    Name = product.Name,
+                    Price = product.Price
+                }).ToListAsync();
+            return new PaginationViewModel<ProductVM>(query, totalPages, page, size);
         }
 
         public async Task<ProductGetVM> GetSingleAsync(int id)

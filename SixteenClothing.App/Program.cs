@@ -37,7 +37,9 @@ builder.Services.AddIdentity<AppUser, IdentityRole<int>>(options =>
 //Services
 builder.Services.AddScoped<IService<SliderGetVM, SliderGetVM, SliderCreateVM, SliderUpdateVM>, SliderService>();
 builder.Services.AddScoped<IService<CategoryGetVM, CategoryGetVM, CategoryCreateVM, CategoryUpdateVM>, CategoryService>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IService<ProductGetVM, ProductGetVM, ProductCreateVM, ProductUpdateVM>, ProductService>();
+builder.Services.AddScoped<IProductService, ProductService>();
 
 var app = builder.Build();
 
